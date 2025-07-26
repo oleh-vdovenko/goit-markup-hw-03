@@ -52,7 +52,6 @@ img {
 .page-menu {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .logo {
@@ -77,6 +76,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-left: 76px;
 }
 
 .menu-list-link {
@@ -122,14 +122,24 @@ img {
 /* section-1 service-banner */
 .service-banner {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.service-container {
+  text-align: center;
 }
 
 .service-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
+  text-align: center;
+  width: 496px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button.service-order {
@@ -140,6 +150,9 @@ button.service-order {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  padding: 16px 32px;
+  border-width: 0;
+  border-radius: 4px;
 }
 
 button.service-order:hover,
@@ -148,6 +161,11 @@ button.service-order:focus {
 }
 
 /* section-2 service-benefits */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .benefits-title {
   font-size: 36px;
   line-height: 1.11111;
@@ -156,12 +174,19 @@ button.service-order:focus {
   color: #2e2f42;
 }
 
+.benefits-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .benefits-list-description {
@@ -182,10 +207,22 @@ button.service-order:focus {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-members {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .team-members-item {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-members-item div {
+  padding: 32px 16px;
 }
 
 .team-members-name {
@@ -195,6 +232,7 @@ button.service-order:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-members-position {
@@ -212,6 +250,22 @@ button.service-order:focus {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.portfolio-projects {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-projects-item {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.portfolio-projects-item div {
+  padding: 32px 16px;
 }
 
 .portfolio-projects-name {
@@ -220,6 +274,7 @@ button.service-order:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-projects-scope {
@@ -231,6 +286,15 @@ button.service-order:focus {
 /* footer */
 .copyright {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 264px;
 }
 
 .copyright-logo-part {
